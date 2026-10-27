@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+        * {
+            box-sizing: border-box;
+            gap: 1rem;
+        }
+        body {
+            margin: 0;
+            gap: 1rem;
+            padding: 1rem;
+        }
+        header {
+            color: white;
+            padding: 1rem;
+            gap: 1rem;
+            border-radius: 0.5rem;
+
+            background-color: #1e90ff;
+            box-shadow: 0px 4px #0077ea;
+        }
+        section {
+            display: flex;
+            gap: 1rem;
+            border-radius: 0.5rem;
+
+            height: 100vh;
+        }
+        main {
+            border-radius: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 3;
+            margin: 1rem 0;
+            color: white;
+            padding: 1rem;
+            background-color: #3cb371;
+            box-shadow: 0px 4px #2f8d59;
+        }
+        .items {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item {
+            flex: 0 0 calc((100% - 3rem)/4);
+            border-radius: 0.5rem;
+            display: flex;
+            height: 4rem;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            background-color: #2f8d59;
+            box-shadow: 0px 4px #226741;
+        }
+
+        aside {
+            border-radius: 0.5rem;
+            display: flex;
+            flex-grow: 1;
+            margin: 1rem 0;
+            color: white;
+            padding: 1rem;
+            background-color: #ff6347;
+            box-shadow: 0px 4px #e02200;
+        }
+        footer {
+            border-radius: 0.5rem;
+            color: white;
+            padding: 1rem;
+            background-color: #4169e1;
+            box-shadow: 0px 4px #1d44b8;
+        }
+    </style>
+    <body>
+        <header>
+            header
+        </header>
+        <section>
+            <main>main
+                <div class="items">
+                    <div class="item"><span>item</span></div>
+                    <div class="item"><span>item</span></div>
+                    <div class="item"><span>item</span></div>
+                    <div class="item"><span>item</span></div>
+                    <div class="item"><span>item</span></div>
+                    <div class="item"><span>item</span></div>
+                    <div class="item"><span>item</span></div>
+                    <div class="item"><span>item</span></div>
+                    <div class="item"><span>item</span></div>
+                    <div class="item"><span>item</span></div>
+                    <div class="item"><span>item</span></div>
+                </div>
+            </main>
+            <aside>sidebar</aside>
+        </section>
+        <footer>footer</footer>
+
+    </body>
+</html>
